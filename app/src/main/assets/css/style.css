@@ -1,0 +1,94 @@
+/* INIT */
+html,body,div,span,applet,object,iframe,
+h1,h2,h3,h4,h5,h6,p,blockquote,pre,
+a,abbr,acronym,address,big,cite,code,
+del,dfn,em,img,ins,kbd,q,s,samp,
+small,strike,strong,sub,sup,tt,var,
+b,u,i,center,
+dl,dt,dd,ol,ul,li,
+fieldset,form,label,legend,
+table,caption,tbody,tfoot,thead,tr,th,td,
+aside,canvas,details,embed,
+figure,figcaption,footer,header,hgroup,
+menu,nav,output,ruby,section,summary,
+time,mark,audio,video{
+	margin:0;
+	padding:0;
+	border:0;
+	font-size:100%;
+	vertical-align:baseline;
+}
+
+/* HTML5 ELEMENT RESET */
+aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section{ display:block }
+ol,ul{ list-style:none }
+blockquote,q{ quotes:none }
+blockquote:before,blockquote:after,q:before,q:after{ content:''; content:none }
+table{ border-collapse:collapse; border-spacing:0 }
+a{ text-decoration:none }
+img{ max-width:100% }
+
+/* TYPE */
+body, textarea { font: 12px/18px "Nanum Gothic", "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif !important }
+
+/* MICRO CLEARFIX */
+.cf:before,.cf:after { content: " "; display: table }
+.cf:after { clear: both }
+
+/* BOX SIZING FIX */
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+
+/* IPHONE FONT FIX */
+*{-webkit-text-size-adjust:none; -webkit-font-smoothing: antialiased}
+
+/*--- CORE CSS ---*/
+
+/* GLOBAL HTML, BODY */
+html, 
+body {
+}
+
+body {
+	background: #f2f2f2;
+}
+
+/* WRAP */
+body .wrap {
+}
+
+/* MAIN */
+main section.error-connection {
+	position: relative;
+	height: 294px;
+	margin-top: 25px;
+	background: url('../images/error_connection_bg.png') no-repeat top center;
+	background-size: 172px auto;
+}
+
+main section.error-connection .error-message {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+}
+
+main section.error-connection .error-message span {
+	display: block;
+}
+
+main section.error-connection .error-message span.message {
+	color: #575968;
+	font-size: 15px;
+	font-weight: bold;
+	line-height: 1;
+	margin-bottom: 6px;
+}
+
+main section.error-connection .error-message span.description {
+	color: #878893;
+	font-size: 11px;
+}
+/* /MAIN */
