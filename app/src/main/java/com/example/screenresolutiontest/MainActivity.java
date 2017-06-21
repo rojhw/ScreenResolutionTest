@@ -12,7 +12,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
         webview = (WebView)findViewById(R.id.webview);
         webview.loadUrl("file:///android_asset/error_connection.html");
     }
