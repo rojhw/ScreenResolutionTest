@@ -14,5 +14,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         webview = (WebView)findViewById(R.id.webview);
         webview.loadUrl("file:///android_asset/error_connection.html");
+        int a = 10;
     }
 }
