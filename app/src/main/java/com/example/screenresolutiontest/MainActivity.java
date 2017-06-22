@@ -16,4 +16,3 @@ public class MainActivity extends AppCompatActivity {
         webview.loadUrl("file:///android_asset/error_connection.html");
     }
 }
-asdfa
